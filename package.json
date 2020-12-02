@@ -1,0 +1,24 @@
+{
+  "name": "primeira-publicacao-teste",
+  "version": "1.0.0",
+  "description": "Primeira aplicação next js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matheus216/primeira-publicacao-teste.git"
+  },
+  "author": "Matheus Martins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matheus216/primeira-publicacao-teste/issues"
+  },
+  "homepage": "https://github.com/Matheus216/primeira-publicacao-teste#readme",
+  "dependencies": {
+    "next": "^10.0.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
