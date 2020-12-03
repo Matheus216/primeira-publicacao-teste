@@ -16,7 +16,7 @@ const Contador = () => {
         <div>
             <h2>Tarsis é gay {cont} vezes </h2>
             
-            <button onClick={() => setCont(cont + 1)}>Clica para adicionar mais vezes</button>
+            <button onClick={() => setCont(cont + 1)}>Clica para adicionar mais vezes Test</button>
         </div>
     );
 }
