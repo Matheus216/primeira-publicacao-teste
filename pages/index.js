@@ -3,7 +3,7 @@ import {useState} from 'react';
 const Home = () => {
     return (
         <div> 
-            <h2>Home</h2>
+            
             <Contador />
         </div>
     );
@@ -14,8 +14,9 @@ const Contador = () => {
 
     return (
         <div>
-            {cont}
-            <button onClick={() => setCont(cont + 1)}>Click me</button>
+            <h2>Tarsis é gay {cont} vezes </h2>
+            
+            <button onClick={() => setCont(cont + 1)}>Clica para adicionar mais vezes</button>
         </div>
     );
 }
